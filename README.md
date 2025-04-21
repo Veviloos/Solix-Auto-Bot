@@ -36,8 +36,13 @@ An automated bot for the Solix Depin dashboard that helps users claim tasks and 
    - Create a `.env` file in the root directory
    - Add your Solix Depin credentials:
      ```
-     SOLIX_EMAIL=your_email@example.com
-     SOLIX_PASSWORD=your_password
+      SOLIX_EMAIL_1=your_email@example.com
+      SOLIX_PASSWORD_1=your_password
+      SOLIX_LABEL_1=Account1
+
+      SOLIX_EMAIL_2=another_email@example.com
+      SOLIX_PASSWORD_2=another_password
+      SOLIX_LABEL_2=Account2
      ```
 
 ## 🏃‍♀️ Usage
